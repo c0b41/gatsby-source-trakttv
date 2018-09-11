@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-source-trakttv",
+  "version": "1.0.0",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "babel index.js --out-file gatsby-node.js"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "trakttv"
+  ],
+  "dependencies": {
+    "got": "^9.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "repository": "github.com/c0b41/gatsby-source-trakttv",
+  "author": "c0b41",
+  "license": "MIT"  
+}
