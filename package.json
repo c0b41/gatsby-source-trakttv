@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-trakttv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "gatsby-node.js",
   "scripts": {
     "prepublishOnly": "npm run build",
